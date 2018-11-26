@@ -1,0 +1,58 @@
+body {
+  height: 100%;
+  background: none rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  font: normal 1.875em/1.38 'Verdana Negrito It lico';
+  color: rgb(15, 15, 15);
+}
+
+.container {
+  float: left;
+  width: 55.2%;
+  height: 73px;
+  margin: 31px 0 0 5.46667%;
+  border-radius: 32px;
+  background-color: rgb(245, 6, 6);
+}
+
+.text {
+  float: left;
+  width: 53.9211783439%;
+  min-height: 56px;
+  margin: 11px 0 0 24.16969%;
+  background-color: rgba(200, 17, 17, 0);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(15, 15, 15);
+}
+
+._button {
+  display: block;
+  float: left;
+  border-radius: 3px;
+  background-size: contain;
+  background-position: center center;
+  background-color: rgb(222, 222, 222);
+  font-size: 0.533em;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._button-1 {
+  width: 16.2666666666%;
+  height: 73px;
+  margin: 31px 0 0 1.86667%;
+  background-image: url('../images/download(2).png');
+  background-repeat: repeat-y;
+  font-family: Verdana;
+}
+
+._button-2 {
+  width: 6.5833333333%;
+  height: 66px;
+  margin: 22px 0 0 11.2%;
+  background-image: url('../images/edit(3).jpg');
+  background-repeat: no-repeat;
+  font-family: Helvetica;
+}
