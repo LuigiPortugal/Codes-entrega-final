@@ -1,0 +1,128 @@
+body {
+  height: 100%;
+  background: none rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  font: 400 1em/1.38 Verdana;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  float: left;
+}
+
+.container .container {
+  width: 13.2226345793%;
+  height: 65px;
+}
+
+.text {
+  float: left;
+  width: 83.0917874396%;
+  min-height: 56px;
+  margin: 15px 0 0 8.94475%;
+  background-color: rgba(200, 17, 17, 0);
+  font-family: 'Verdana Negrito It lico';
+  font-size: 1.875em;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(15, 15, 15);
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  border-radius: 3px;
+  background-size: contain;
+  background-position: center center;
+  background-color: rgb(222, 222, 222);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._input {
+  display: block;
+  position: relative;
+  float: left;
+  margin-left: 20%;
+  padding: 0 10px;
+  background-color: rgb(242, 242, 242);
+  font-family: 'Trebuchet MS';
+  font-size: 0.813em;
+  color: rgb(0, 0, 0);
+}
+
+.container-1 {
+  position: relative;
+  z-index: 1;
+  width: 55.2%;
+  height: 73px;
+  margin: 31px 0 0 7.32917%;
+  border-radius: 32px;
+  background-color: rgb(246, 128, 6);
+}
+
+.container-2 {
+  position: relative;
+  clear: both;
+  z-index: 5;
+  width: 72.3958333333%;
+  height: 219px;
+  margin: 26px 0 0 16.79167%;
+  background-color: rgba(157, 22, 22, 0.64);
+}
+
+.container-3 {
+  width: 100%;
+  height: 74px;
+  margin-top: 251px;
+  background-image: url('../images/Logo_rodape.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+._button-1 {
+  z-index: 2;
+  width: 16.2666666666%;
+  height: 73px;
+  margin: 31px 0 0 1.86667%;
+  background-image: url('../images/download(2).png');
+  background-repeat: repeat-y;
+}
+
+._button-2 {
+  z-index: 9;
+  width: 10.1333333333%;
+  height: 35px;
+  margin: 44px 0 0 9.20417%;
+  background-image: url('../images/edit(3).png');
+  background-repeat: no-repeat;
+  font-family: Helvetica;
+}
+
+._button-3 {
+  z-index: 8;
+  width: 13.0666666666%;
+  height: 26px;
+  margin: -35px 0 0 74.4%;
+  background-image: url('../images/save(2).png');
+  background-repeat: no-repeat;
+  font-family: 'Trebuchet MS';
+}
+
+._input-1 {
+  clear: both;
+  z-index: 6;
+  width: 66.1333333333%;
+  height: 135px;
+  margin-top: -206px;
+}
+
+._input-2 {
+  z-index: 7;
+  width: 39.2%;
+  height: 26px;
+  margin-top: -35px;
+}

@@ -1,0 +1,137 @@
+body {
+  height: 100%;
+  background-image: url('../images/background2.jpg');
+  font: 700 1.25em/1.38 'Trebuchet MS';
+}
+
+.container {
+  float: left;
+}
+
+.container .container {
+  width: 13.2226345793%;
+  height: 65px;
+}
+
+.text {
+  float: left;
+  width: 53.9211783439%;
+  min-height: 56px;
+  margin: 11px 0 0 24.16969%;
+  background-color: rgba(200, 17, 17, 0);
+  font-family: 'Verdana Negrito It lico';
+  font-size: 1.5em;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(15, 15, 15);
+}
+
+._button {
+  display: block;
+  float: left;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._input {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 8;
+  width: 30.4%;
+  height: 72px;
+  margin: -114px 0 0 54.4%;
+  padding: 0 10px;
+  background-color: rgb(242, 242, 242);
+  font-family: Verdana;
+  font-size: 0.65em;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.container-1 {
+  position: relative;
+  z-index: 1;
+  width: 55.2%;
+  height: 73px;
+  margin: 31px 0 0 5.46667%;
+  border-radius: 32px;
+  background-color: rgb(245, 6, 6);
+}
+
+.container-2 {
+  position: relative;
+  clear: both;
+  z-index: 3;
+  width: 43.2%;
+  height: 166px;
+  margin: 54px 0 0 13.6%;
+  background-image: url('../images/ampulheta.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.container-3 {
+  clear: both;
+  width: 99.7333333333%;
+  height: 74px;
+  margin: 59px 0 0 0.26667%;
+  background-image: url('../images/Logo_rodape.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+._button-1 {
+  position: relative;
+  z-index: 2;
+  width: 16.2666666666%;
+  height: 73px;
+  margin: 31px 0 0 1.86667%;
+  border-radius: 3px;
+  background: url('../images/download(2).png') rgb(222, 222, 222);
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: center center;
+  font-family: Verdana;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+._button-2 {
+  position: relative;
+  z-index: 9;
+  width: 10.1333333333%;
+  height: 35px;
+  margin: 39px 0 0 11.06667%;
+  border-radius: 3px;
+  background: url('../images/edit(3).png') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-family: Helvetica;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+._button-3 {
+  width: 66.6666666666%;
+  height: 50px;
+  margin: 70px 0 0 16.79167%;
+  border-radius: 32px;
+  background-color: rgb(231, 210, 19);
+  font-size: 1em;
+}
+
+._button-4 {
+  clear: both;
+  width: 61.0666666666%;
+  height: 39px;
+  margin: 55px 0 0 19.72917%;
+  border-radius: 30px;
+  background-color: rgb(9, 214, 110);
+  font-size: 1em;
+}

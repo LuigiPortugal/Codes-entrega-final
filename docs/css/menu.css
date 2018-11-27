@@ -1,0 +1,163 @@
+body {
+  height: 100%;
+  background: url('../images/background(2).jpg') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font: 700 1.563em/1.38 Georgia;
+  color: rgb(6, 8, 195);
+}
+
+.container {
+  float: left;
+}
+
+.container .container {
+  width: 13.2226345793%;
+  height: 65px;
+}
+
+.text {
+  float: left;
+  text-align: center;
+}
+
+._button {
+  display: block;
+  float: left;
+  font-size: 0.64em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._container {
+  clear: both;
+  width: 100%;
+  height: 74px;
+  margin-top: 70px;
+  background-image: url('../images/Logo_rodape.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.container-1 {
+  position: relative;
+  clear: both;
+  z-index: 2;
+  width: 9.2499999999%;
+  height: 69px;
+  margin: -88px 0 0 77.99167%;
+}
+
+.text-1 {
+  position: relative;
+  z-index: 0;
+  width: 59.4666666666%;
+  min-height: 73px;
+  margin: 12px 0 0 22.8%;
+  font-family: Verdana;
+  font-size: 1.2em;
+  color: rgb(101, 93, 93);
+}
+
+.text-2 {
+  clear: both;
+  width: 71.7333333333%;
+  min-height: 48px;
+  margin: 68px 0 0 16.79167%;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(6, 8, 195);
+}
+
+._button-1 {
+  width: 6%;
+  height: 48px;
+  margin: -81px 0 0 94%;
+  border-radius: 3px;
+  background-color: rgb(222, 222, 222);
+  font-family: Helvetica;
+  font-weight: 400;
+}
+
+._button-2 {
+  position: relative;
+  z-index: 9;
+  width: 10.1333333333%;
+  height: 35px;
+  margin: -63px 0 0 89.86667%;
+  border-radius: 3px;
+  background: url('../images/edit(3).png') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-family: Helvetica;
+  font-weight: 400;
+}
+
+._button-3 {
+  width: 42.6666666666%;
+  height: 72px;
+  margin: 26px 0 0 33.72917%;
+  border-radius: 33px;
+  background-color: rgb(245, 6, 6);
+  font-family: 'Trebuchet MS';
+}
+
+._button-4 {
+  clear: both;
+  width: 42.6666666666%;
+  height: 72px;
+  margin: 55px 0 0 33.72917%;
+  border-radius: 33px;
+  background-color: rgb(55, 145, 6);
+  font-family: 'Trebuchet MS';
+}
+
+._button-5 {
+  clear: both;
+  width: 42.9333333333%;
+  height: 72px;
+  margin: 60px 0 0 33.72917%;
+  border-radius: 33px;
+  background-color: rgb(246, 128, 6);
+  font-family: 'Trebuchet MS';
+}
+
+._button-3:active,
+._button-4:active,
+._button-5:active {
+  border-radius: 35px;
+  font-size: 0.8em;
+}
+
+.text a,
+.text em,
+.text span,
+.text strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: #000000;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
