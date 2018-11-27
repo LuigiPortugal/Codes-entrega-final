@@ -1,8 +1,7 @@
 body {
   height: 100%;
-  background: url('../images/clean-white-polygon-backgrounds-7-copy(6).jpg') rgb(255, 255, 255);
-  background-size: auto auto;
-  background-position: center center;
+  background: none rgb(255, 255, 255);
+  background-repeat: no-repeat;
   font: 400 1em/1.38 Verdana;
   color: rgb(0, 0, 0);
 }
@@ -52,9 +51,9 @@ body {
 
 .container-2 {
   clear: both;
-  width: 79.1958333333%;
+  width: 99.7333333333%;
   height: 74px;
-  margin: 65px 0 0 10%;
+  margin: 65px 0 0 0.26667%;
   background-image: url('../images/Logo_rodape.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -108,11 +107,13 @@ body {
 }
 
 ._button-2 {
-  width: 6.5833333333%;
-  height: 66px;
-  margin: 22px 0 0 11.2%;
+  position: relative;
+  z-index: 2;
+  width: 8.5333333333%;
+  height: 35px;
+  margin: 37px 0 0 11.2%;
   border-radius: 3px;
-  background: url('../images/edit(3).jpg') rgb(222, 222, 222);
+  background: url('../images/edit(3).png') rgb(222, 222, 222);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -122,9 +123,9 @@ body {
 ._button-3 {
   position: relative;
   z-index: 7;
-  width: 25.6%;
+  width: 11.2%;
   height: 40px;
-  margin: 75px 0 0 2.92917%;
+  margin: 71px 0 0 9.72917%;
   border-radius: 3px;
   background: url('../images/trash(2).png') rgb(222, 222, 222);
   background-repeat: no-repeat;
@@ -135,9 +136,9 @@ body {
 ._button-4 {
   position: relative;
   z-index: 9;
-  width: 25.6%;
+  width: 11.2%;
   height: 40px;
-  margin: 23px 0 0 2.92917%;
+  margin: 23px 0 0 9.72917%;
   border-radius: 3px;
   background: url('../images/trash(2).png') rgb(222, 222, 222);
   background-repeat: no-repeat;
@@ -148,9 +149,9 @@ body {
 ._button-5 {
   position: relative;
   z-index: 11;
-  width: 25.6%;
+  width: 11.2%;
   height: 40px;
-  margin-left: 2.92917%;
+  margin-left: 9.72917%;
   border-radius: 3px;
   background: url('../images/trash(2).png') rgb(222, 222, 222);
   background-repeat: no-repeat;
