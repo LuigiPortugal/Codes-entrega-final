@@ -1,10 +1,6 @@
 body {
-  height: 100%;
-  background: url('../images/background(2).jpg') rgb(255, 255, 255);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  font: 700 1.563em/1.38 Georgia;
+  background-image: url('../images/backsheet.jpg');
+  font: 700 1.563em/1.38 Verdana;
   color: rgb(6, 8, 195);
 }
 
@@ -56,7 +52,6 @@ body {
   width: 59.4666666666%;
   min-height: 73px;
   margin: 12px 0 0 22.8%;
-  font-family: Verdana;
   font-size: 1.2em;
   color: rgb(101, 93, 93);
 }
@@ -67,7 +62,7 @@ body {
   min-height: 48px;
   margin: 68px 0 0 16.79167%;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: normal;
   color: rgb(6, 8, 195);
 }
 
@@ -84,15 +79,14 @@ body {
 ._button-2 {
   position: relative;
   z-index: 9;
-  width: 10.1333333333%;
-  height: 35px;
-  margin: -63px 0 0 89.86667%;
+  width: 11.425%;
+  height: 38px;
+  margin: -52px 0 0 88.52083%;
   border-radius: 3px;
-  background: url('../images/edit(3).png') rgb(222, 222, 222);
+  background: url('../images/edit(3).png') rgb(239, 239, 244);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-  font-family: Helvetica;
   font-weight: 400;
 }
 
@@ -147,6 +141,7 @@ body {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   background-color: transparent;
+  text-shadow: none;
   font-family: inherit;
   font-style: inherit;
   font-size: inherit;

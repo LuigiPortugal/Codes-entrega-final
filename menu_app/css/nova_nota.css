@@ -1,7 +1,5 @@
 body {
-  height: 100%;
-  background: none rgb(255, 255, 255);
-  background-repeat: no-repeat;
+  background-image: url('../images/backsheet.jpg');
   font: 400 1em/1.38 Verdana;
   color: rgb(0, 0, 0);
 }
