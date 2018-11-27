@@ -1,6 +1,6 @@
 body {
-  background-image: url('../images/backsheet.jpg');
-  font: 400 1em/1.38 Verdana;
+  background-image:url('../images/backsheet.jpg');
+  font: 400 1em/1.38 edelsans;
   color: rgb(0, 0, 0);
 }
 
@@ -13,86 +13,19 @@ body {
   height: 65px;
 }
 
-.container .text {
-  width: 75.3623188405%;
-  min-height: 56px;
-  margin: 14px 0 0 11.66764%;
-  background-color: rgba(200, 17, 17, 0);
-  font-family: 'Verdana Negrito It lico';
-  font-size: 1.875em;
-  font-weight: normal;
-  text-align: center;
-  color: rgb(15, 15, 15);
-}
-
 .text {
   float: left;
+  color: rgb(0, 0, 0);
 }
 
 ._button {
   display: block;
   float: left;
-  border-radius: 3px;
-  background-size: contain;
-  background-position: center center;
-  background-color: rgb(222, 222, 222);
-  font-size: 1em;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
-.container-1 {
-  position: relative;
-  z-index: 1;
-  width: 57.0666666666%;
-  height: 73px;
-  margin: 31px 0 0 5.6%;
-  border-radius: 32px;
-  background-color: rgb(55, 145, 6);
-}
-
-.container-2 {
-  position: relative;
-  clear: both;
-  z-index: 10;
-  width: 11.7333333333%;
-  height: 54px;
-  margin: 6px 0 0 20.1291699999%;
-  border-radius: 29px;
-  background-image: url('../images/whatsapp(2).png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-
-.container-3 {
-  position: relative;
-  clear: both;
-  z-index: 8;
-  width: 21.2%;
-  height: 41px;
-  margin: 27px 0 0 15.2%;
-  background-image: url('../images/fblogo(2).png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-
-.container-4 {
-  position: relative;
-  clear: both;
-  z-index: 12;
-  width: 11.7333333333%;
-  height: 42px;
-  margin: 43px 0 0 20.1291699999%;
-  border-radius: 24px;
-  background-image: url('../images/twitch(3).png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-
-.container-5 {
+._container {
   clear: both;
   width: 99.7333333333%;
   height: 74px;
@@ -103,7 +36,48 @@ body {
   background-position: center center;
 }
 
-.text-2 {
+.container-1 {
+  position: relative;
+  clear: both;
+  z-index: 8;
+  width: 11.7333333333%;
+  height: 54px;
+  margin: 6px 0 0 20.1291699999%;
+  border-radius: 29px;
+  background-image: url('../images/whatsapp(2).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.container-2 {
+  position: relative;
+  clear: both;
+  z-index: 6;
+  width: 21.2%;
+  height: 41px;
+  margin: 27px 0 0 15.2%;
+  background-image: url('../images/fblogo(2).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.container-3 {
+  position: relative;
+  clear: both;
+  z-index: 10;
+  width: 11.7333333333%;
+  height: 42px;
+  margin: 43px 0 0 20.1291699999%;
+  border-radius: 24px;
+  background-image: url('../images/twitch(3).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.text-1 {
   clear: both;
   width: 59.7333333333%;
   min-height: 29px;
@@ -111,66 +85,92 @@ body {
   font-family: 'Trebuchet MS';
   font-size: 1.25em;
   text-align: center;
-  color: rgb(0, 0, 0);
 }
 
-.text-3 {
+.text-2 {
   position: relative;
-  z-index: 9;
+  z-index: 7;
   width: 51.7333333333%;
   min-height: 26px;
   margin: 34px 0 0 1.72917%;
   font-size: 1em;
-  color: rgb(0, 0, 0);
 }
 
-.text-4 {
+.text-3 {
   position: relative;
   clear: both;
-  z-index: 11;
+  z-index: 9;
   width: 51.4666666666%;
   min-height: 28px;
   margin: -23px 0 0 33.32917%;
   font-size: 1em;
-  color: rgb(0, 0, 0);
 }
 
-.text-5 {
+.text-4 {
   position: relative;
-  z-index: 13;
+  z-index: 11;
   width: 51.7333333333%;
   min-height: 22px;
   margin: 56px 0 0 1.72917%;
   font-size: 1em;
-  color: rgb(0, 0, 0);
 }
 
 ._button-1 {
   position: relative;
-  z-index: 2;
+  z-index: 0;
   width: 16.2666666666%;
   height: 73px;
   margin: 31px 0 0 1.86667%;
-  background-image: url('../images/download(2).png');
-  background-repeat: repeat-y;
+  border-radius: 3px;
+  background: url('../images/return(4).png') rgb(209, 209, 209);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 1em;
 }
 
 ._button-2 {
   position: relative;
-  z-index: 5;
-  width: 10.1333333333%;
-  height: 35px;
-  margin: 31px 0 0 9.06667%;
-  background-image: url('../images/edit(3).png');
-  background-repeat: no-repeat;
-  font-family: Helvetica;
+  z-index: 12;
+  width: 60.5333333333%;
+  height: 82px;
+  margin: 31px 0 0 4.8%;
+  border-radius: 33px;
+  background-color: rgba(55, 145, 6, 0.62);
+  font-family: 'Trebuchet MS';
+  font-size: 1.875em;
+  font-weight: 700;
+}
+
+._button-2:active {
+  border-radius: 35px;
+  font-size: 1.25em;
 }
 
 ._button-3 {
+  position: relative;
+  z-index: 3;
+  width: 10.1333333333%;
+  height: 35px;
+  margin: 31px 0 0 6.39167%;
+  border-radius: 3px;
+  background: url('../images/edit(3).png') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-family: Helvetica;
+  font-size: 1em;
+}
+
+._button-4 {
   clear: both;
   width: 79.7333333333%;
   height: 123px;
-  margin: 78px 0 0 10.12917%;
-  background-image: url('../images/bar-chart.png');
+  margin: 69px 0 0 10.12917%;
+  border-radius: 3px;
+  background: url('../images/bar-chart.png') rgb(222, 222, 222);
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 1em;
 }

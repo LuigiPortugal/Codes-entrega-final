@@ -1,6 +1,6 @@
 body {
-  background-image: url('../images/backsheet.jpg');
-  font: normal 1.875em/1.38 'Verdana Negrito It lico';
+  background-image:url('../images/backsheet.jpg');
+  font: normal 1.875em/1.38 edelsans;
   color: rgb(15, 15, 15);
 }
 
@@ -29,9 +29,9 @@ body {
   position: relative;
   float: left;
   border-radius: 3px;
+  background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-  background-color: rgb(222, 222, 222);
   font-size: 0.533em;
   font-weight: 400;
   text-align: center;
@@ -43,7 +43,7 @@ body {
   z-index: 1;
   width: 57.0666666666%;
   height: 73px;
-  margin: 31px 0 0 5.6%;
+  margin: 31px 0 0 5.4625%;
   border-radius: 32px;
   background-color: rgb(9, 214, 110);
 }
@@ -51,7 +51,7 @@ body {
 .container-2 {
   position: relative;
   clear: both;
-  z-index: 5;
+  z-index: 4;
   width: 16.2666666666%;
   height: 43px;
   margin: 78px 0 0 22%;
@@ -64,7 +64,7 @@ body {
 .container-3 {
   position: relative;
   clear: both;
-  z-index: 7;
+  z-index: 6;
   width: 13.3333333333%;
   height: 42px;
   margin: 40px 0 0 24%;
@@ -78,7 +78,7 @@ body {
 .container-4 {
   position: relative;
   clear: both;
-  z-index: 9;
+  z-index: 8;
   width: 13.6%;
   height: 48px;
   margin: 40px 0 0 23.72917%;
@@ -100,51 +100,51 @@ body {
 }
 
 ._button-1 {
-  z-index: 2;
+  z-index: 11;
   width: 16.2666666666%;
   height: 73px;
-  margin: 31px 0 0 1.86667%;
-  background-image: url('../images/download(2).png');
-  background-repeat: repeat-y;
+  margin: 31px 0 0 2%;
+  background-image: url('../images/return(4).png');
+  background-color: rgb(209, 209, 209);
   font-family: Verdana;
 }
 
 ._button-2 {
-  z-index: 11;
+  z-index: 10;
   width: 10.1333333333%;
   height: 35px;
   margin: 31px 0 0 9.06667%;
   background-image: url('../images/edit(3).png');
-  background-repeat: no-repeat;
+  background-color: rgb(222, 222, 222);
   font-family: Helvetica;
 }
 
 ._button-3 {
-  z-index: 6;
+  z-index: 5;
   width: 15.2%;
   height: 43px;
   margin: 78px 0 0 26.1291699999%;
   background-image: url('../images/checkbox.png');
-  background-repeat: no-repeat;
+  background-color: rgb(222, 222, 222);
   font-family: Verdana;
 }
 
 ._button-4 {
-  z-index: 8;
+  z-index: 7;
   width: 15.2%;
   height: 43px;
   margin: 40px 0 0 26.26667%;
   background-image: url('../images/checkbox.png');
-  background-repeat: no-repeat;
+  background-color: rgb(222, 222, 222);
   font-family: Verdana;
 }
 
 ._button-5 {
-  z-index: 10;
+  z-index: 9;
   width: 17.8666666666%;
   height: 48px;
   margin: 40px 0 0 25.46667%;
   background-image: url('../images/uncheckedbox.png');
-  background-repeat: no-repeat;
+  background-color: rgb(222, 222, 222);
   font-family: Verdana;
 }

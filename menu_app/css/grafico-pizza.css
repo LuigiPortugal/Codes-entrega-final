@@ -1,6 +1,6 @@
 body {
-  background-image: url('../images/backsheet.jpg');
-  font: 400 1em/1.38 Verdana;
+  background-image:url('../images/backsheet.jpg');
+  font: 400 1em/1.38 edelsans;
   color: rgb(0, 0, 0);
 }
 
@@ -8,90 +8,27 @@ body {
   float: left;
 }
 
-.container .text {
-  width: 75.3623188405%;
-  min-height: 56px;
-  margin: 14px 0 0 11.66764%;
-  background-color: rgba(200, 17, 17, 0);
-  font-family: 'Verdana Negrito It lico';
-  font-size: 1.875em;
-  font-weight: normal;
-  text-align: center;
-  color: rgb(15, 15, 15);
+.container .container {
+  width: 13.2226345793%;
+  height: 65px;
 }
 
 .text {
+  position: relative;
   float: left;
+  min-height: 20px;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
 }
 
 ._button {
   display: block;
   float: left;
-  border-radius: 3px;
-  background-size: contain;
-  background-position: center center;
-  background-color: rgb(222, 222, 222);
-  font-size: 1em;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
-._element {
-  width: 13.2226345793%;
-  height: 65px;
-}
-
-.container-1 {
-  position: relative;
-  z-index: 1;
-  width: 57.0666666666%;
-  height: 73px;
-  margin: 31px 0 0 5.6%;
-  border-radius: 32px;
-  background-color: rgb(55, 145, 6);
-}
-
-.container-2 {
-  position: relative;
-  clear: both;
-  z-index: 7;
-  width: 10.5333333333%;
-  height: 20px;
-  margin: 54px 0 0 10%;
-  background-color: rgba(9, 35, 144, 0.96);
-}
-
-.container-3 {
-  position: relative;
-  clear: both;
-  z-index: 9;
-  width: 10.5333333333%;
-  height: 20px;
-  margin: 30px 0 0 10%;
-  background-color: rgba(237, 92, 10, 0.96);
-}
-
-.container-4 {
-  position: relative;
-  clear: both;
-  z-index: 11;
-  width: 10.5333333333%;
-  height: 20px;
-  margin: 29px 0 0 10%;
-  background-color: rgba(11, 166, 82, 0.96);
-}
-
-.container-5 {
-  position: relative;
-  clear: both;
-  z-index: 14;
-  width: 10.5333333333%;
-  height: 20px;
-  margin: 32px 0 0 10%;
-  background-color: rgba(236, 234, 29, 0.96);
-}
-
-.container-6 {
+._container {
   clear: both;
   width: 99.7333333333%;
   height: 74px;
@@ -102,72 +39,126 @@ body {
   background-position: center center;
 }
 
-.text-2 {
+.container-1 {
   position: relative;
+  clear: both;
+  z-index: 5;
+  width: 10.5333333333%;
+  height: 20px;
+  margin: 54px 0 0 10%;
+  background-color: rgba(9, 35, 144, 0.96);
+}
+
+.container-2 {
+  position: relative;
+  clear: both;
+  z-index: 7;
+  width: 10.5333333333%;
+  height: 20px;
+  margin: 30px 0 0 10%;
+  background-color: rgba(237, 92, 10, 0.96);
+}
+
+.container-3 {
+  position: relative;
+  clear: both;
+  z-index: 9;
+  width: 10.5333333333%;
+  height: 20px;
+  margin: 29px 0 0 10%;
+  background-color: rgba(11, 166, 82, 0.96);
+}
+
+.container-4 {
+  position: relative;
+  clear: both;
+  z-index: 12;
+  width: 10.5333333333%;
+  height: 20px;
+  margin: 32px 0 0 10%;
+  background-color: rgba(236, 234, 29, 0.96);
+}
+
+.text-1 {
+  z-index: 6;
+  width: 64.6666666666%;
+  margin: 54px 0 0 1.46667%;
+}
+
+.text-2 {
   z-index: 8;
   width: 64.6666666666%;
-  min-height: 20px;
-  margin: 54px 0 0 1.46667%;
-  font-size: 1em;
-  color: rgb(0, 0, 0);
+  margin: 35px 0 0 1.46667%;
 }
 
 .text-3 {
-  position: relative;
   z-index: 10;
   width: 64.6666666666%;
-  min-height: 20px;
-  margin: 35px 0 0 1.46667%;
-  font-size: 1em;
-  color: rgb(0, 0, 0);
+  margin-top: 29px;
 }
 
 .text-4 {
-  position: relative;
-  z-index: 12;
-  width: 64.6666666666%;
-  min-height: 20px;
-  margin-top: 29px;
-  font-size: 1em;
-  color: rgb(0, 0, 0);
-}
-
-.text-5 {
-  position: relative;
-  z-index: 13;
+  z-index: 11;
   width: 69.0666666666%;
-  min-height: 20px;
   margin: 32px 0 0 0.12917%;
-  font-size: 1em;
-  color: rgb(0, 0, 0);
 }
 
 ._button-1 {
   position: relative;
-  z-index: 2;
+  z-index: 0;
   width: 16.2666666666%;
   height: 73px;
   margin: 31px 0 0 1.86667%;
-  background-image: url('../images/download(2).png');
-  background-repeat: repeat-y;
+  border-radius: 3px;
+  background: url('../images/return(3).png') rgb(209, 209, 209);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 1em;
 }
 
 ._button-2 {
   position: relative;
-  z-index: 5;
-  width: 10.1333333333%;
-  height: 35px;
-  margin: 31px 0 0 9.06667%;
-  background-image: url('../images/edit(3).png');
-  background-repeat: no-repeat;
-  font-family: Helvetica;
+  z-index: 13;
+  width: 60.5333333333%;
+  height: 82px;
+  margin: 31px 0 0 5.6%;
+  border-radius: 33px;
+  background-color: rgba(55, 145, 6, 0.62);
+  font-family: 'Trebuchet MS';
+  font-size: 1.875em;
+  font-weight: 700;
+}
+
+._button-2:active {
+  border-radius: 35px;
+  font-size: 1.25em;
 }
 
 ._button-3 {
+  position: relative;
+  z-index: 3;
+  width: 10.1333333333%;
+  height: 35px;
+  margin: 31px 0 0 5.5875%;
+  border-radius: 3px;
+  background: url('../images/edit(3).png') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-family: Helvetica;
+  font-size: 1em;
+}
+
+._button-4 {
   clear: both;
   width: 80%;
   height: 197px;
-  margin: 30px 0 0 10%;
-  background-image: url('../images/pizza.png');
+  margin: 21px 0 0 10%;
+  border-radius: 3px;
+  background: url('../images/pizza.png') rgb(222, 222, 222);
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 1em;
 }
