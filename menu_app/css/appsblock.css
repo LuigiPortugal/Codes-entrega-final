@@ -128,12 +128,3 @@ body {
   font-family: Verdana;
 }
 
-._button-5 {
-  z-index: 9;
-  width: 17.8666666666%;
-  height: 48px;
-  margin: 40px 0 0 25.46667%;
-  background-image: url('../images/uncheckedbox.png');
-  background-color: rgb(222, 222, 222);
-  font-family: Verdana;
-}
